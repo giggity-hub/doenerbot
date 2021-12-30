@@ -12,7 +12,7 @@ const client = new snoowrap({
 
 
 const comments = new CommentStream(client, { 
-    subreddit: 'praxisprojekt', 
+    subreddit: 'ich_iel', 
     limit: 10, 
     pollTime: 1000,
 });
