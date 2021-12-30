@@ -14,7 +14,7 @@ const client = new snoowrap({
 const comments = new CommentStream(client, { 
     subreddit: 'praxisprojekt', 
     limit: 10, 
-    pollTime: 10000,
+    pollTime: 1000,
 });
 
 const BOT_START = Date.now() / 1000;
